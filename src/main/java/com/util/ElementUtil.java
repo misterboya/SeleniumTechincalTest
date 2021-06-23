@@ -5,6 +5,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+/**
+	This class needs some work to do, ideally we will declare the click, send etc methods here
+ 	and will utilise in the page object factory
+ */
 public class ElementUtil {
 
 	public void waitForLoad(WebDriver driver) {

@@ -16,6 +16,11 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.apache.poi.ss.util.NumberToTextConverter;
 
+/**
+ * This class is an utility for excel, uses poi api library to full-fill all the data extraction
+ * from the excel workbook. Pretty much power full and easy to maintain.
+ */
+
 public class ExcelReader {
 
 	public List<Map<String, String>> getData(String excelFilePath, String sheetName)
